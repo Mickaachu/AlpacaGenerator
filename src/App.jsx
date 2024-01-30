@@ -1,3 +1,8 @@
+import { useState, useRef} from "react"
+import * as htmlToImage from 'html-to-image';
+import download from "downloadjs";
+
+
 import { 
   Alpaca,
   AccessoriesButtons, 
@@ -10,9 +15,11 @@ import {
   } from "./components"
 import Button from "./components/Button"
 import ArrayList from "../constants/ArrayList"
-import { useState, useRef} from "react"
-import * as htmlToImage from 'html-to-image';
-import download from "downloadjs";
+import downloadImage from "../src/download-file.png";
+import shuffleImage from "../src/shuffle.png";
+
+
+
 function App() {
   const alpacaref = useRef(null)
 
@@ -90,11 +97,11 @@ function App() {
           </div>
           <div className="flex gap-4">
             <button onClick={handleRandomStyle} className="bg-blue-500 flex items-center text-white gap-2 rounded-md min-w-40 hover:bg-blue-700">
-              <img src="../src/shuffle.png " className="w-4" alt="randomize selection" />
+              <img src={shuffleImage} className="w-4" alt="randomize selection" />
               Randomize
             </button>
             <button onClick={handleDownload} className="bg-blue-500 text-white hover:bg-blue-700 flex items-center gap-2 rounded-md min-w-40">
-              <img src="../src/download-file.png " className="w-5" alt="randomize selection" />
+              <img src={downloadImage} className="w-5" alt="randomize selection" />
               Download
             </button>
           </div>
