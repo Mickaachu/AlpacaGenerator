@@ -1,8 +1,5 @@
-# React + Vite
+fun little project for devProjects challenge:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+devProjects challenge link: [https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8)
+github repo: [https://github.com/Mickaachu/AlpacaGenerator](https://github.com/Mickaachu/AlpacaGenerator)
+[Live Demo 🎉](https://main--aquamarine-douhua-12fe0d.netlify.app)
