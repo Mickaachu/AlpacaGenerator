@@ -49,9 +49,17 @@ main {
 #button input[type="radio"] {
   opacity: 0;
   z-index: 100;
+  cursor: pointer;
 }
 
 #button input[type="radio"]:checked + label {
   background: #20b8be;
+  color: #fff;
+  border-radius: 4px;
+}
+
+
+#button input[type="radio"]:hover + label {
+  border-color: #1d37cc;
   border-radius: 4px;
 }

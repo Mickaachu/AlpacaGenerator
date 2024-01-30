@@ -7,7 +7,7 @@ function AccessoriesButtons({style}) {
   }
   
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 lg:max-w-lg">
       <Button Title="earings" Name="accessories" OnChanged={handleButton}/>
       <Button Title="glasses" Name="accessories" OnChanged={handleButton}/>
       <Button Title="flower" Name="accessories" OnChanged={handleButton}/>

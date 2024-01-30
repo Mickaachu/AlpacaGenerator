@@ -8,7 +8,7 @@ function BGButtons({style}) {
   }
   
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 lg:max-w-xl">
       <Button Title="blue-1" Name="background" OnChanged={handleButton} >
         <img src={backgroundImages.blue50} alt="default"  className="w-[20px] h-[20px] rounded-full"/>
       </Button>

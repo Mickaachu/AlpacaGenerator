@@ -8,7 +8,7 @@ function EyesButtons({style}) {
   }
   
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 lg:max-w-lg">
       <Button Title="default" Name="eyes" OnChanged={handleButton}/>
       <Button Title="angry" Name="eyes" OnChanged={handleButton}/>
       <Button Title="naughty" Name="eyes" OnChanged={handleButton}/>

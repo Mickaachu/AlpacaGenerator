@@ -8,7 +8,7 @@ function LegButtons({style}) {
   }
   
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 lg:max-w-lg">
       <Button Title="default" Name="leg" OnChanged={handleButton}/>
       <Button Title="bubbleTea" Name="leg" OnChanged={handleButton}/>
       <Button Title="cookie" Name="leg" OnChanged={handleButton}/>

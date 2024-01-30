@@ -9,10 +9,10 @@ import Legs from "./leg/Leg"
 import Accessories from "./accessories/Accessories"
 
 
-function Alpaca({alpaca}) {
+function Alpaca({alpaca, ref}) {
   
   return (
-    <div>
+    <div ref={ref}>
         <Background background={alpaca.Background}>
             <Neck selectNeck={alpaca.Neck}/>
             <Hair selectHair={alpaca.Hair} />

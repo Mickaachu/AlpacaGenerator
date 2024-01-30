@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Button({Title, Name, OnChanged, style, children}) {
+function Button({Title, Name, OnChanged,  children}) {
 
   return (
-    <div className={`relative min-w-32 text-center min-h-10 ${style}`} id='button'>
+    <div className='relative min-w-32 text-center min-h-10 cursor-pointer' id='button'>
       <input type="radio" name={Name} id={Name} value={Title} 
         onChange={(e) => OnChanged(e.target.value)} 
         className='opacity-1 absolute top-0 bottom-0 left-0 right-0 block '  />

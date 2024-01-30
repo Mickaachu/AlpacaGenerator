@@ -30,7 +30,7 @@ function Background({ background, children}) {
           <div className="relative z-10 w-full h-full">
             {children}
           </div>
-          <img src={bgSelector(background)} alt="background" className="absolute top-0 left-0 h-full w-full" />
+          <img src={bgSelector(background)} alt="background" className="absolute top-2 left-0 h-full w-full" />
       </div>
       <br />
       

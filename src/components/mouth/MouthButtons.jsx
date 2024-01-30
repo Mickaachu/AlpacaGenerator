@@ -8,7 +8,7 @@ function MouthButtons({style}) {
   }
   
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 lg:max-w-lg">
       <Button Title="default" Name="mouth" OnChanged={handleButton}/>
       <Button Title="astonished" Name="mouth" OnChanged={handleButton}/>
       <Button Title="eating" Name="mouth" OnChanged={handleButton}/>

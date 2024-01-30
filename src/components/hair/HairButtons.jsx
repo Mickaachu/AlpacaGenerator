@@ -8,7 +8,7 @@ function HairButtons({style}) {
   }
   
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2 lg:max-w-lg">
       <Button Title="default" Name="eyes" OnChanged={handleButton}/>
       <Button Title="curls" Name="eyes" OnChanged={handleButton}/>
       <Button Title="bangs" Name="eyes" OnChanged={handleButton}/>
@@ -16,7 +16,6 @@ function HairButtons({style}) {
       <Button Title="fancy" Name="eyes" OnChanged={handleButton}/>
       <Button Title="quiff" Name="eyes" OnChanged={handleButton}/>
       <Button Title="short" Name="eyes" OnChanged={handleButton}/>
-     
 
     </div>
   )

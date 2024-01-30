@@ -12,7 +12,7 @@ function Legs({selectLegs}) {
         }
     }
   return (
-    <img src={LegsSelector(selectLegs)} alt="Legs" className=" h-80 w-64 absolute top-[31px] left-8 z-20" />
+    <img src={LegsSelector(selectLegs)} alt="Legs" className=" h-80 w-64 absolute top-[10px] left-10 z-20" />
   )
 }
 
